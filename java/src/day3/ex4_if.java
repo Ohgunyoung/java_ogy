@@ -27,7 +27,8 @@ public class ex4_if {
 			System.out.print(num1 * num2);
 			}
 		else if ( op == '/') {
-			System.out.print(num1 / (float)num2);
+			
+			System.out.print(num1 / (double)num2);
 			}
 		else if ( op == '%') {
 			System.out.print(num1 % num2);
