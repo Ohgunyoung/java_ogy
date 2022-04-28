@@ -24,6 +24,7 @@ public class ex2_Scanner2 {
 		
 		scan.close();
 		
+		
 	}
 
 }
