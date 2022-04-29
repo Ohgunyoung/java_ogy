@@ -27,7 +27,8 @@ public class ex1_Scanner1 {
 		System.out.print( "수학 " + num  );
 		System.out.print( " 영어 " + num1  );
 		System.out.println( " 국어 " + num2  );
-		System.out.println("총점 " + (num+num1+num2));
+		System.out.println(""
+				+ "총점 " + (num+num1+num2));
 		System.out.println("평균 " + (num+num1+num2)/3.0);
 	}
  

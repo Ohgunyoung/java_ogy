@@ -23,6 +23,8 @@ public class Ex4_dowhile {
    	 		menu = scan.nextInt();
 		}while(menu != 5);
 		scan.close();
+		
+		
 	}
 
 }
