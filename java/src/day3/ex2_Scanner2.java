@@ -17,7 +17,6 @@ public class ex2_Scanner2 {
 		System.out.println("입력한 실수는 "+str+"입니다");
 		
 		//Scanner 에는 문자를 받는 기능이 없
-		음
 		//charAt(번지) : 문자열에서 번지에 해당하는 문자를 가져옴.0번지부터 시작
 		System.out.print("단어를 입력하세요 : ");
 		char ch = scan.next().charAt(0);

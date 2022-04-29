@@ -12,7 +12,7 @@ public class ex18_scanner {
 		Scanner scan = new Scanner(system.in);
 		System.out.println("정수를 입력하세요");
 		int num1 = scan.nextInt();
-		System.out.println("입력한 정수는 "num" 입니다" );
+		System.out.println("입력한 정수는 " + num1 +" 입니다" );
 		scan.close();
 	}
 
