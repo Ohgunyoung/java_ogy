@@ -15,6 +15,12 @@ public class ReverseNumber {
 		 * 규칙성 : num의 일의 자리를 출력 한 후 num를 10으로 나눈 목을 num에 다시 저장
 		 */
 		Scanner scan = new Scanner(System.in);
-	
+		int num = scan.nextInt();
+		
+		while(num != 0) {
+			System.out.print(num%10);
+			num = num / 10;
+		}
+		scan.close();
 	}
 }
