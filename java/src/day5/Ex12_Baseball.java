@@ -66,6 +66,7 @@ public class Ex12_Baseball {
 				}
 				if(B!=0) {
 					System.out.println(B + "B");
+					
 				}
 				if(S == 0 && B ==0) {
 					System.out.println("0");
