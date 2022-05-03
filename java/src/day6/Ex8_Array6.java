@@ -22,8 +22,7 @@ public class Ex8_Array6 {
 				score[j] = i ;
 				System.out.print( score[j] + " " );
 				j++;
-				
 			}		
 		}
- }
+    }
 }
