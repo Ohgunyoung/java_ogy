@@ -38,14 +38,14 @@ public class Ex12_Baseball {
 			int con1 = 3 , con2 = 8, con3 = 9;
 			int user1, user2, user3;
 			int S = 0 , B = 0 ;
-			
-			while(S>3) {
+		
+			while(S<3) {
 				System.out.print("1~9사이의 정수를 중복되지 않게 입력하세요 : ");
 				user1 = scan.nextInt();
 				user2 = scan.nextInt();
 				user3 = scan.nextInt();
-				S=0;
-				B=0;
+				
+				
 				if(con1 == user1) {
 					S++;
 				}
@@ -71,8 +71,9 @@ public class Ex12_Baseball {
 				if(S == 0 && B ==0) {
 					System.out.println("0");
 				}
-				scan.close();
+				
 			}
+			scan.close();
 		}
 }
 

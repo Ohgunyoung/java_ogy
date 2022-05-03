@@ -26,32 +26,42 @@ public class Ex5_Array5_Baseball {
 		 * 단, 사용자가 입력한 정수도 배열에 저장.
 		 */
 		
-		for(int i = 0; i < 3; i++){
-			System.out.print( i+1 +"번 볼 : " );
-			user[i] = scan.nextInt();
-		
-		if(  com[i] ==	user[i])  {
+		while(S<3) {
+			System.out.print("1~9사이의 정수를 중복되지 않게 입력하세요 : ");
+			user[0] = scan.nextInt();
+			user[1] = scan.nextInt();
+			user[2] = scan.nextInt();
+
+			if(com[0] == user[0]) {
 				S++;
-		if( user[0] == com[1] || user[0] == com[2]) {
-				B++;
 			}
-		if( user[1] == com[0] || user[1] == com[2]) {
-				B++;
-			}	
-		if( user[2] == com[1] || user[2] == com[0]) {
-				B++;
-				
+			if(com[1] == user[1]) {
+				S++;
 			}
-		if(S!=0) {
+			if(com[2] == user[2]) {
+				S++;
+			}
+			if(com[0] == user[1] || com[0] == user[2])
+				B++;
+			if(com[1] == com[0] || com[1] == user[2])
+				B++;
+			if(com[2] == com[0] || com[2] == user[1])
+				B++;
+			if(S!=0) {
 				System.out.println(S + "S");
 			}
-		if(B!=0) {
+			if(B!=0) {
 				System.out.println(B + "B");
+				
 			}
-		if(S == 0 && B ==0) {
+			if(S == 0 && B ==0) {
 				System.out.println("0");
 			}
+			
 		}
-	}	
-}
-}
+		scan.close();
+	}
+	
+}	
+	
+	
