@@ -16,7 +16,8 @@ public class Ex8_향상된for {
 		for(int tmp : score) {
 			sum += tmp;
 		}
-		avg = sum / (double)score.length;
+		avg = sum / (double)
+				score.length;
 		System.out.println("총점 : " + sum + ",평균 :" + avg);
 
 	}
